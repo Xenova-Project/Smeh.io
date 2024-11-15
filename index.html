@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pardon </title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: url('https://cdn.discordapp.com/attachments/1291811703314583700/1307073867952689182/Sans_titre_34_20241103193932.png?ex=6738fae6&is=6737a966&hm=789d6e2008167d4648565bc904565d00c5044419ac7a24f1d7441d90c0efff24&') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+        h1 {
+            font-size: 3.5rem;
+            color: #ffd700;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.2rem;
+            margin: 10px 20px;
+            text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.7);
+        }
+        .heart {
+            font-size: 6rem;
+            color: #7700ff;
+            animation: pulse 1.5s infinite;
+        }
+        @keyframes pulse {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.2);
+            }
+        }
+        button {
+            background-color: rgba(174, 0, 255, 0.9);
+            color: #fff;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            border-radius: 30px;
+            cursor: pointer;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            transition: background-color 0.3s, transform 0.3s;
+            margin-top: 20px;
+        }
+        button:hover {
+            background-color: rgb(255, 0, 170);
+            transform: translateY(-3px);
+        }
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+            p {
+                font-size: 1rem;
+            }
+            .heart {
+                font-size: 4rem;
+            }
+            button {
+                padding: 10px 20px;
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Smeh t pas une sorciere</h1>
+    <div class="heart">🙏</div>
+    <p>Je m'excuse sincèrement d'avoir dit que tu étais une sorcière.</p>
+    <p>Tu es une personne merveilleuse, et je ne voulais pas te blesser.</p>
+    <p>Accepteras-tu mes excuses ? 🙏</p>
+    <p>sinon t pas gentille</p>
+    <button onclick="alert('🧙‍♀️ simer le s')">Je te pardonne</button>
+</body>
+</html>
